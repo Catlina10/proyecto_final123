@@ -1,17 +1,26 @@
+//Lista de pendientes - todo list
+const pendienetes= JSON.parse(localStorge.getItem('pendientes')) || []
+const cumplidas= JSON.parse(localStorge.getItem('cumplidas')) || []
+
 const render = () => {
     const listado = document.getElementById("lista-pendientes") ;
+    const listadoC = document.getElementById("lista-pendientes") ;
     const plantilla = pendienetes.map(p => "<li>" + p + "</li>");
+    const plantillaC = pendienetes.map(p => "<li>" + p + "</li>");
     listado.innerHTML = plantilla.join("");
+    listado.innerHTMLC = plantillaC.join("");
     const elementos= document.querySelectorAll('#lista-pendientes li');
     elementos.forEach((elemento, i));
         elementos.addEventListtener('click',()=>{
             elemento.parentNODE.renoveChild(elemnto);
-            pendienetes.splice(i,1);
+            const cumplida=pendientes.splice(i,1);
+            cumplidas.push(cumplida);
+            console.log(cumplidas);
             actualizarPendientes(pendienetes);
             render();
         })
-    })     
-}
+    }     
+
 
 const actualizarPendientes =  (pendienetes) =>{
     const pendienetesCadena = JSON.stringify(pendienetes);

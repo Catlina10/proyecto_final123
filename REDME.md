@@ -25,4 +25,6 @@ se han añadido el momento de las siguientes funciones
 ### Desarrollo
 Está pendiente añadir:
 * Autenticasion (inicio de secion y restriccion de acceso)
- * Boton iniciar sesion
+ * Crear una página de inicio de sesión
+ * Boton iniciar sesión
+ * Preguntar usuario y contraseña

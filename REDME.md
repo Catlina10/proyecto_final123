@@ -26,5 +26,8 @@ se han añadido el momento de las siguientes funciones
 Está pendiente añadir:
 * Autenticasion (inicio de secion y restriccion de acceso)
  * Crear una página de inicio de sesión
+  * Opción de registro
+   * Crear una página para 
  * Boton iniciar sesión
  * Preguntar usuario y contraseña
+ * Botón iniciar sesión

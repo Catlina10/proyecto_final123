@@ -1,3 +1,4 @@
+
 # Repositorio de clase para el grado noveno
 A lo largo de el 2021, el grado novenos ha sido instruido en el manejo de algunosaspectos basicos de Javascrip 
 ## Resolución de problemas
@@ -8,7 +9,7 @@ Cuando se codifica podremos aplicar métodos para resolver problemas. En clase, 
  * Se diseñan soluciones para los problemas pequeños
  * Probar las soluciones
 * Detección de patrones
-## Aplicasion
+## Aplicacion
 se desarrollo una aplicasion para el manejo de pendientes para colocar en practica el manejo de DOM con Javascrip
 
 ### Funcionalidades

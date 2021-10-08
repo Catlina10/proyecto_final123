@@ -1,3 +1,4 @@
+
 # Repositorio de clase para el grado noveno
 A lo largo de el 2021, el grado novenos ha sido instruido en el manejo de algunosaspectos basicos de Javascrip 
 ## Resolución de problemas
@@ -23,7 +24,7 @@ se han añadido el momento de las siguientes funciones
 ...
 
 ### Desarrollo
-Está pendiente añadir:
+Se a añadido hasta el momento las siguientes funcionalidades:
 * Autenticasion (inicio de secion y restriccion de acceso)
  * Crear una página de inicio de sesión
   * Opción de registro

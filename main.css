@@ -1,5 +1,56 @@
-
+font-face {
+    font-family: "Quarts Pachino";
+    src: url("Quarts.otf");
+}
+@font-face {
+    font-family: "Bruzh";
+    src: url(Bruzh.otf);
+}
+* {
+background-color:#A569BD;
+font-family: "Bruzh";
+font-size: 1.1em;
+width: 80%;
+border-radius: 7px;
+padding: 0.5%;
+}
+#principal {
+    display: inline-block;
+    justify-content: center;
+}
+h1 {
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Verdana";
+    font-size: 3em;
+    color:#4a17c2 ;
+    margin:0 auto;
+}
+form{
+    display: block;
+    background-color: inherit;
+    margin: 0 auto;
+}
+p{
+    color: #373883;
+    font-size: 2em;
+    background-color: rgb(181, 204, 240);
+    margin: 0 auto;
+}
+body{
+    padding: 20px;
+}
+ul{
+    border-radius: 7px;
+}
 #lista-cumplidas li{
-text-decoration: line-through;
-color: beige;
+    text-decoration: line-through;
+    color: rgb(53, 47, 53);
+}
+.pie-de-pagina{
+    font-size: 1em;
+}
+#boton{
+    height: 2em;
+    width: 15em;
 }
